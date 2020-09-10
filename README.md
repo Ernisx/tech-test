@@ -1,14 +1,15 @@
 # tech-test
 
-#Getting Started
+# Getting Started
 1. Clone https://github.com/Ernisx/tech-test.git
 2. Run DetailControllerTest.class
 
-#TODO list:
+# TODO list:
 - [ ] Create more endpoints;
 - [ ] Think about clear classes/method naming;
 - [ ] Improve exception handler
 - [ ] Add hibernate;
+- [ ] Logging;
 - [ ] How about file data Validations?
  
 
