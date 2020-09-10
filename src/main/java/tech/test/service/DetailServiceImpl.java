@@ -1,9 +1,11 @@
-package tech.test;
+package tech.test.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
+import tech.test.Detail;
+import tech.test.dao.DetailDao;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,6 +1,7 @@
-package tech.test;
+package tech.test.service;
 
 import org.springframework.stereotype.Service;
+import tech.test.Detail;
 
 import java.math.BigDecimal;
 import java.util.List;

@@ -1,4 +1,6 @@
-package tech.test;
+package tech.test.dao;
+
+import tech.test.Detail;
 
 import java.util.List;
 
