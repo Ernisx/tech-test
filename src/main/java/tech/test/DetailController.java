@@ -28,10 +28,10 @@ public class DetailController {
     }
 
     @GetMapping("/details/searchBy")
-    public List<Detail> getDetailsByValue(
+    public ResponseEntity<List<Detail>> getDetailsByValue(
             @RequestParam(value = "searchBy") String searchBy,
             @RequestParam(value = "value") String value) {
-        return detailService.getDetails(searchBy, value);
+        return new ResponseEntity<>(detailService.getDetails(searchBy, value), HttpStatus.OK);
     }
 
     @GetMapping("/details/averageCost")
